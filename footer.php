@@ -9,7 +9,7 @@
 	</div>
 	<div class="last">
 		<h3>Colophon</h3>
-		<p>Mac, <a href="http://validator.w3.org/check?uri=referer">XHTML</a>, <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>, JQuery, Wordpress, Helvetica, Grid<!--<a href="" id="show_hide_grid">Grid</a>-->.</p>
+		<p>Mac, <a href="http://validator.w3.org/check?uri=referer">XHTML</a>, <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>, JQuery, Wordpress, Helvetica, <a href="http://github.com/cdinger/simple_grid">Simple Grid</a><!--<a href="" id="show_hide_grid">Grid</a>-->.</p>
 	</div>
 </div>
 
