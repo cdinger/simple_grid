@@ -1,0 +1,72 @@
+/*
+Theme Name: Simple Grid
+Theme URI: http://www.houseofding.com/
+Description: A simple, black and white, grid-based theme for WordPress.
+Version: 1.0
+Author: Christian Dinger
+Author URI: http://www.houseofding.com/
+Tags: black, white, minimal, grid
+*/
+
+html {padding:0;margin:0;background:#fff;}
+body {font-family:Helvetica;width:700px;margin:10px auto;padding:0;font-size:14px;background:repeat-y center;background-image:none;background:#fff;}
+a:link, a:visited {color:#000;}
+a:hover, a:active {color:red;text-decoration:underline;}
+h2 {font-size:24px;margin:0 0 20px 0;padding:0;}
+h3 {font-size:18px;margin:0 0 10px 0;padding:0;}
+p {line-height:19px;padding:0;margin:0 0 10px 0;}
+ul {padding:0 0 0 2em;line-height:19px;margin:0 0 10px 0;}
+code {margin:20px 0;}
+fieldset {margin:0;padding:0;border:none;}
+
+#header {margin:0 0 40px 0;border-bottom:1px solid #000;/*border-bottom:1px solid #000*/;padding:0;height:200px;}
+#header ul {padding:0;margin:-25px 0 0 0;list-style:none;font-weight:bold;clear:both;float:right;width:460px;}
+#header ul li {display:block;float:left;font-size:16px;letter-spacing:-1px;width:100px;margin:0 10px 0 0;}
+#header ul a {text-decoration:none;}
+#header p {float:left;margin:10px 0 0 20px;padding:0;width:200px;color:#999;}
+#header form.search {width:220px;float:right;margin:10px 0 0 0;padding:0;}
+#header form.search input[type="text"] {width:190px;color:#ccc;font-size:14px;}
+h1 {font-size:32px;letter-spacing:-.02em;margin:0;width:202px;line-height:28px;padding:20px 0 0 18px;background:#000;height:180px;font-weight:bold;float:left;}
+h1 a:link, h1 a:visited, h1 a:hover, h1:active {text-decoration:none;color:#fff;}
+
+
+#content {clear:both;margin-left:240px;width:450px;}
+#content form.search input[type="text"]{font-size:16px;width:300px;color:#ccc;}
+
+ul.archive {list-style:none;padding:0;margin:0}
+ul.archive li {width:220px;display:block;float:left;}
+
+div.post {margin:0 0 10px 0;}
+div.post ul.meta, #comments ol ul {
+	list-style:none;padding:0;margin:2px 0 0 -240px !important;width:220px !important;float:left;text-align:right;
+	font-size:12px;line-height:18px;border-top:1px solid #000;
+}
+div.post ul.meta li, #comments ol ul li {border-bottom:1px dotted #000;}
+div.post h2 a:link, div.post h2 a:visited,
+div.post h3 a:link, div.post h3 a:visited {text-decoration:none;}
+div.post h2 a:hover, div.post h2 a:active,
+div.post h3 a:hover, div.post h3 a:active {text-decoration:underline;}
+div.seven, div.three {margin:20px 0 0 0;}
+div.seven img, div.seven p.caption {margin-left:-240px;font-size:12px;}
+p.caption {font-size:12px;margin:0 0 20px 0;}
+a img {border:none;}
+code {font-size:12px;}
+
+div.excerpt {margin:0 0 40px 0;}
+
+#comments {margin:40px 0 0 0;}
+#comments form textarea {height:160px;width:100%;}
+#comments form p.allowed_tags {font-size:12px;line-height:16px;}
+#comments form label {}
+#comments form label input {display:block;margin:0 0 10px 0;}
+#comments ol {padding:0 0 0 2em;margin:0 0 20px -2em;list-style:none;}
+#comments ol a:link, #comments ol a:visited {text-decoration:none;}
+#comments ol a:hover, #comments ol a:active {text-decoration:underline;}
+#comments li {padding:0 0 20px 0;clear:left;}
+#comments li li {padding:0;}
+
+#footer {margin:40px 0;padding:10px 0 0 0;border-top:1px solid #000;clear:left;}
+#footer div {width:220px;margin:10px 20px 0 0;float:left;}
+#footer div.last {margin:10px 0 0 0;}
+#footer h3 {font-size:14px;margin:0 0 10px 0;}
+#footer p {margin:0;}
