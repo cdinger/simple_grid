@@ -54,6 +54,10 @@ code {font-size:12px;}
 
 div.excerpt {margin:0 0 40px 0;}
 
+div.post_navigation {height:20px;}
+div.post_navigation div.newer {width:45%;float:left;}
+div.post_navigation div.older {width:45%;float:right;text-align:right;}
+
 #comments {margin:40px 0 0 0;}
 #comments form textarea {height:160px;width:100%;}
 #comments form p.allowed_tags {font-size:12px;line-height:16px;}
