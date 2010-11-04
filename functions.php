@@ -31,7 +31,7 @@ function post_excerpt() {
 		<ul class="meta">
 			<li>Posted <?php the_time('F jS, Y') ?></li>
 			<li>by <?php the_author() ?></li>
-			<li><?php comments_popup_link('No comments', '1 comment', '% comments;'); ?></li>
+			<li><?php comments_popup_link('No comments', '1 comment', '% comments'); ?></li>
 		</ul>
 		<?php the_excerpt('Read the rest of this entry &raquo;'); ?>
 		<p><a href="<?php the_permalink() ?>">Read more</a></p>
