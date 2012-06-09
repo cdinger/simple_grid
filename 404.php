@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content">
+<section id="content">
 
 	<h2>Page not found</h2>
 	
@@ -10,6 +10,6 @@
 	
 	<?php get_search_form(); ?>
 
-</div>
+</section>
 
 <?php get_footer(); ?>

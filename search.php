@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content">
+<section id="content">
 
 	<?php if (have_posts()) : ?>
 
@@ -12,10 +12,10 @@
 			
 		<?php endwhile; ?>
 
-		<div class="navigation">
+		<nav class="navigation">
 			<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
 			<div class="alignright"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-		</div>
+		</nav>
 
 	<?php else : ?>
 
@@ -25,6 +25,6 @@
 
 	<?php endif; ?>
 
-	</div>
+</section>
 
 <?php get_footer(); ?>

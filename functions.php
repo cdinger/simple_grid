@@ -26,7 +26,7 @@ function mytheme_comment($comment, $args, $depth) {
 
 function post_excerpt() {
 	?>
-	<div class="post excerpt">
+	<article class="post excerpt">
 		<h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 		<ul class="meta">
 			<li>Posted <?php the_time('F jS, Y') ?></li>
@@ -40,7 +40,7 @@ function post_excerpt() {
 		<?php the_category(', ') ?>
 		<?php edit_post_link('Edit', '', ' | '); ?>
 		-->
-	</div>
+	</article>
 	<?php
 }
 
